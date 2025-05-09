@@ -1,0 +1,65 @@
+body{
+  background: black;
+  padding: 20px;
+  color: white;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.input-container{
+  display: flex;
+  justify-content: space-between;
+}
+input{
+  border-radius:2px;
+  border: 1px solid white;
+  background-color: black;
+  color:white;
+  width: 300px;
+  height: 30px;
+}
+.add-button{
+  width:150px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+}
+.employee-details{
+  width:auto;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  border:1px solid white;
+  border-radius: 10px;
+  width:600px
+}
+.error-message{
+  color:red;
+  font-size: 18px;
+  display: none;
+}
+.success-message{
+  color:green;
+  font-size: 18px;
+  display: none;
+}
+.delete-button{
+ width:150px;
+ padding: 10px;
+ border: 1px solid white;
+ border-radius: 5px;
+}
+.zero-employees{
+  opacity: 0.5;
+}
+.employees-container{
+  display:flex;
+  flex-direction: column;
+  row-gap: 5px;
+  min-width:500px;
+}
+.row{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+}

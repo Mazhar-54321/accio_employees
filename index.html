@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+	<div class="container">
+     <h1>New Employees</h1>
+     <div class="input-container">
+      <div>
+        <p>Enter Name</p>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <p>Enter Profession</p>
+        <input type="text" id="profession" />
+      </div>
+      <div>
+        <p>Enter Age</p>
+        <input type="text" id="age" />
+      </div>
+     </div>
+     <button class="add-button" onclick="addEmployee()">Add User</button>
+     <p class="error-message">Error: Please make sure all the fields are filled before adding in an employee !</p>
+     <p class="success-message">Success: Employee added</p>
+     <p class="zero-employees">You have 0 employees</p>
+     <div class="employees-container">
+      
+     </div>
+  </div>
+    
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
